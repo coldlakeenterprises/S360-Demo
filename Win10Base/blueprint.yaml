@@ -12,7 +12,7 @@ resources:
     properties:
       image: Win10
       flavor: Lab-Medium
-      customizationSpec: VRAWin10 # Needs to be DHCP
+      customizationSpec: VRAWin10 #Needs to be DHCP
       networks:
         - network: '${resource.Cloud_Network_1.id}'
           assignment: static
