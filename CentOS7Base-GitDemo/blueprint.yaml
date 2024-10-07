@@ -1,4 +1,4 @@
-name: CentOS7Base-GitDemo
+name: CentOS9Base-GitDemo
 version: 1
 formatVersion: 1
 inputs:
@@ -6,7 +6,7 @@ inputs:
     type: string
     enum:
       - Win10
-      - CentOS7
+      - CentOS9
 resources:
   Cloud_Machine_1:
     type: Cloud.Machine
