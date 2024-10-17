@@ -1,4 +1,4 @@
-name: Win10Base-S360Demo
+name: Win10Base-GitDemo
 version: 2
 format:
 inputs: {}
@@ -11,7 +11,7 @@ resources:
         - 0
     properties:
       image: Win10
-      flavor: Lab-Medium
+      flavor: Medium
       customizationSpec: VRAWin10 # Needs to be DHCP
       networks:
         - network: '${resource.Cloud_Network_1.id}'
